@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "cookies",
+    "total": 10,
+    "invalid": []
+  },
+  {
+    "slug": "privacidade",
+    "total": 23,
+    "invalid": []
+  },
+  {
+    "slug": "pre-inscricao",
+    "total": 18,
+    "invalid": []
+  },
+  {
+    "slug": "contactos",
+    "total": 24,
+    "invalid": []
+  },
+  {
+    "slug": "atividades-e-servicos",
+    "total": 49,
+    "invalid": []
+  },
+  {
+    "slug": "espacos",
+    "total": 38,
+    "invalid": []
+  },
+  {
+    "slug": "jardim-de-infancia",
+    "total": 56,
+    "invalid": []
+  },
+  {
+    "slug": "creche",
+    "total": 62,
+    "invalid": []
+  },
+  {
+    "slug": "a-babymoura",
+    "total": 58,
+    "invalid": []
+  },
+  {
+    "slug": "inicio",
+    "total": 120,
+    "invalid": []
+  }
+]

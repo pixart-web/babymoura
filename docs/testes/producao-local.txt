@@ -1,0 +1,19 @@
+1) Produção sem destinatário
+  ✓ 503 not_configured
+  ✓ nada guardado
+2) Produção com destinatário (SMTP = Mailpit local)
+  ✓ 200 ok
+  ✓ mensagem não confirma visita
+  ✓ pedido guardado (#46)
+  ✓ notificação enviada
+  ✓ email capturado no Mailpit
+  ✓ Reply-To aponta para a família
+  ✓ reenvio tratado como duplicado
+  ✓ sem registo duplicado
+3) Produção com SMTP indisponível
+  ✓ 200: pedido aceite porque ficou guardado
+  ✓ falha de email registada no pedido
+  ✓ nova tentativa agendada
+  ✓ logs sem dados pessoais
+Limpeza e reposição do modo demonstração
+Concluído: modo demo

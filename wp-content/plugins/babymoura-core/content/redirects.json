@@ -1,0 +1,14 @@
+{
+	"_nota": "Redirecionamentos permanentes (301) dos URLs do site atual para as páginas equivalentes. Atualizar com dados de tráfego/ligações externas quando disponíveis.",
+	"map": {
+		"/a-nossa-missao/": "/a-babymoura/",
+		"/as-nossas-instalacoes/": "/espacos/",
+		"/conheca-a-creche/": "/creche/",
+		"/conheca-o-jardim-de-infancia/": "/jardim-de-infancia/",
+		"/servicios/": "/atividades-e-servicos/",
+		"/servicos/": "/atividades-e-servicos/",
+		"/os-nossos-servicos/": "/atividades-e-servicos/",
+		"/inscricao/": "/pre-inscricao/",
+		"/politica-de-privacidade/": "/privacidade/"
+	}
+}

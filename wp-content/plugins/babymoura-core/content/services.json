@@ -1,0 +1,35 @@
+[
+	{
+		"slug": "alimentacao",
+		"title": "Alimentação",
+		"excerpt": "Alimentação completa, com ementas elaboradas por uma dietista.",
+		"meta": {
+			"bm_stages": "",
+			"bm_icon": "food",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "workshops-pais",
+		"title": "Workshops e sessões para pais",
+		"excerpt": "Momentos informativos para as famílias.",
+		"meta": {
+			"bm_stages": "",
+			"bm_icon": "chat",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "babysitting",
+		"title": "Serviço de babysitting",
+		"excerpt": "Serviço indicado no site atual; condições a confirmar.",
+		"meta": {
+			"bm_stages": "",
+			"bm_icon": "moon",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	}
+]

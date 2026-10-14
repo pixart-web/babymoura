@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" width="1200" height="1000">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FCEFD2"/>
+      <stop offset="0.6" stop-color="#FFF7EA"/>
+      <stop offset="1" stop-color="#FFF9F0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F3CB67" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F3CB67" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#356B57" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="1000" fill="url(#sky)"/>
+  <!-- sol -->
+  <circle cx="900" cy="230" r="260" fill="url(#glow)"/>
+  <circle cx="900" cy="230" r="112" fill="#F3CB67"/>
+  <circle cx="872" cy="205" r="40" fill="#F8DC93" opacity="0.8"/>
+  <!-- nuvens -->
+  <g fill="#FFFFFF">
+    <path d="M140 250c0-34 28-58 62-54 12-30 44-48 78-40 28 6 46 28 50 52 30 0 52 20 52 44 0 22-18 38-42 38H182c-24 0-42-18-42-40Z"/>
+    <path d="M620 150c0-22 18-38 40-36 8-20 30-32 52-26 18 4 30 18 32 34 20 0 34 14 34 30 0 14-12 26-28 26H648c-16 0-28-12-28-28Z" opacity="0.9"/>
+  </g>
+  <!-- colinas -->
+  <path d="M0 600C160 520 330 500 520 540s370 20 520-40c70-28 120-30 160-22v522H0Z" fill="#DDE9D7"/>
+  <path d="M0 690c190-70 380-80 580-40s400 40 620-20v370H0Z" fill="#B9D3B2"/>
+  <path d="M0 770c220-40 460-44 700-20 180 18 340 10 500-20v270H0Z" fill="#8DB89A"/>
+  <rect y="760" width="1200" height="240" fill="url(#dots)"/>
+  <!-- cerca -->
+  <g fill="#F7E6CC" stroke="#E4CBA6" stroke-width="3">
+    <rect x="30" y="640" width="1140" height="12" rx="6"/>
+    <rect x="30" y="676" width="1140" height="12" rx="6"/>
+    <g>
+      <path d="M60 700v-90l14-18 14 18v90Z"/><path d="M170 700v-90l14-18 14 18v90Z"/><path d="M280 700v-90l14-18 14 18v90Z"/>
+      <path d="M720 700v-90l14-18 14 18v90Z"/><path d="M830 700v-90l14-18 14 18v90Z"/><path d="M940 700v-90l14-18 14 18v90Z"/><path d="M1050 700v-90l14-18 14 18v90Z"/>
+    </g>
+  </g>
+  <!-- árvore -->
+  <path d="M300 820c6-90 4-170-6-250h52c-10 80-12 160-4 250Z" fill="#9B6B4A"/>
+  <path d="M322 640c30-24 56-30 86-28M318 600c-26-20-50-24-78-18" stroke="#9B6B4A" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <g>
+    <circle cx="320" cy="430" r="150" fill="#5E9474"/>
+    <circle cx="210" cy="510" r="100" fill="#6FA283"/>
+    <circle cx="440" cy="500" r="110" fill="#6FA283"/>
+    <circle cx="330" cy="330" r="110" fill="#7BAE8C"/>
+    <circle cx="260" cy="420" r="70" fill="#8DB89A"/>
+    <circle cx="400" cy="390" r="60" fill="#8DB89A"/>
+  </g>
+  <g fill="#F2B69F"><circle cx="250" cy="370" r="10"/><circle cx="380" cy="470" r="10"/><circle cx="440" cy="400" r="9"/><circle cx="200" cy="480" r="9"/><circle cx="320" cy="300" r="9"/></g>
+  <!-- casinha de pássaros -->
+  <g transform="translate(418 610)">
+    <rect x="-2" y="40" width="8" height="40" fill="#9B6B4A"/>
+    <path d="M-30 0 2-28 34 0Z" fill="#F2B69F"/>
+    <rect x="-24" y="0" width="52" height="46" rx="6" fill="#F3CB67"/>
+    <circle cx="2" cy="22" r="9" fill="#253D35"/>
+  </g>
+  <!-- escorrega -->
+  <g transform="translate(700 520)">
+    <rect x="160" y="0" width="14" height="260" rx="7" fill="#356B57"/>
+    <rect x="236" y="0" width="14" height="260" rx="7" fill="#356B57"/>
+    <g fill="#356B57"><rect x="164" y="60" width="82" height="10" rx="5"/><rect x="164" y="120" width="82" height="10" rx="5"/><rect x="164" y="180" width="82" height="10" rx="5"/></g>
+    <path d="M150 0h110l-18-60H168Z" fill="#F3CB67"/>
+    <path d="M160 20C120 60 90 150 40 220c-16 22-40 40-70 44l-6-30c20-4 34-14 46-30 44-62 76-150 128-196Z" fill="#F2B69F"/>
+    <path d="M160 20C120 60 90 150 40 220c-16 22-40 40-70 44" fill="none" stroke="#E79A7F" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- canteiro -->
+  <g transform="translate(470 800)">
+    <rect x="0" y="40" width="340" height="80" rx="18" fill="#C98F63"/>
+    <rect x="0" y="40" width="340" height="22" rx="11" fill="#D9A77A"/>
+    <g stroke="#356B57" stroke-width="7" stroke-linecap="round" fill="#6FA283">
+      <path d="M50 44V6" fill="none"/><path d="M50 18c-18-2-28-12-30-28 18 0 28 10 30 28Z"/><path d="M50 12c14-4 26-14 26-30-16 2-26 12-26 30Z"/>
+      <path d="M130 44V0" fill="none"/><path d="M130 14c-20-2-30-14-32-32 20 0 30 12 32 32Z"/><path d="M130 8c16-6 28-18 28-34-18 2-28 16-28 34Z"/>
+      <path d="M210 44V10" fill="none"/><path d="M210 22c-16-2-26-12-28-26 16 0 26 10 28 26Z"/><path d="M210 16c14-4 24-14 24-28-14 2-24 12-24 28Z"/>
+      <path d="M290 44V2" fill="none"/><path d="M290 16c-18-2-28-14-30-30 18 0 28 12 30 30Z"/><path d="M290 10c16-6 26-16 26-32-16 2-26 14-26 32Z"/>
+    </g>
+  </g>
+  <!-- flores -->
+  <g>
+    <g transform="translate(120 860)"><circle r="14" fill="#DFD9EE"/><circle r="6" fill="#F3CB67"/></g>
+    <g transform="translate(170 900)"><circle r="12" fill="#F2B69F"/><circle r="5" fill="#F3CB67"/></g>
+    <g transform="translate(1000 870)"><circle r="14" fill="#F2B69F"/><circle r="6" fill="#F3CB67"/></g>
+    <g transform="translate(1060 910)"><circle r="12" fill="#DFD9EE"/><circle r="5" fill="#F3CB67"/></g>
+    <g transform="translate(960 930)"><circle r="10" fill="#FFFFFF"/><circle r="4" fill="#F3CB67"/></g>
+  </g>
+  <!-- estrelas de papel -->
+  <g fill="#F3CB67">
+    <path d="m560 330 9 18 20 3-14 14 3 20-18-9-18 9 3-20-14-14 20-3Z"/>
+    <path d="m1080 470 6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2Z" fill="#F2B69F"/>
+  </g>
+  <!-- borboleta -->
+  <g transform="translate(600 450) rotate(-12)">
+    <ellipse cx="-12" cy="0" rx="14" ry="10" fill="#DFD9EE"/><ellipse cx="12" cy="0" rx="14" ry="10" fill="#DFD9EE"/>
+    <rect x="-2" y="-10" width="4" height="22" rx="2" fill="#253D35"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "babymoura/activities",
+	"title": "Atividades",
+	"category": "babymoura",
+	"icon": "star-filled",
+	"description": "Atividades por etapa educativa e tipo, com estado de validação.",
+	"textdomain": "babymoura-core",
+	"attributes": {
+		"stage": {
+			"type": "string",
+			"default": "all",
+			"enum": [
+				"all",
+				"creche",
+				"jardim"
+			]
+		},
+		"kind": {
+			"type": "string",
+			"default": "all",
+			"enum": [
+				"all",
+				"curricular",
+				"extracurricular"
+			]
+		},
+		"limit": {
+			"type": "number",
+			"default": 0
+		},
+		"layout": {
+			"type": "string",
+			"default": "grid",
+			"enum": [
+				"grid",
+				"compact",
+				"matrix"
+			]
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"anchor": true,
+		"className": true
+	},
+	"editorScript": "bm-editor",
+	"render": "file:./render.php"
+}

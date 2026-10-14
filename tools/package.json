@@ -1,0 +1,15 @@
+{
+  "name": "babymoura-tools",
+  "private": true,
+  "description": "Ferramentas locais: rasterização das ilustrações provisórias, testes end-to-end e capturas.",
+  "type": "module",
+  "scripts": {
+    "illustrations": "node render-illustrations.mjs",
+    "test": "playwright test",
+    "screenshots": "node screenshots.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0",
+    "@axe-core/playwright": "4.10.2"
+  }
+}

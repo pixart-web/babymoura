@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <pattern id="wall" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 40 40 0" stroke="#DDE9D7" stroke-width="3" opacity="0.6"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="600" fill="#F4F7EE"/>
+  <rect width="1200" height="600" fill="url(#wall)"/>
+  <rect y="590" width="1200" height="310" fill="#EBCFA9"/>
+  <rect y="586" width="1200" height="14" fill="#F7E6CC"/>
+  <!-- grinalda de desenhos -->
+  <path d="M40 90c200 60 360 60 560 0s360-60 560 0" fill="none" stroke="#9B6B4A" stroke-width="4"/>
+  <g>
+    <g transform="translate(120 118) rotate(-4)"><rect width="120" height="100" rx="8" fill="#FFFFFF"/><circle cx="60" cy="46" r="26" fill="#F3CB67"/><path d="M14 90c20-20 40-24 60-12s30 6 34-4v16H14Z" fill="#8DB89A"/></g>
+    <g transform="translate(300 146) rotate(3)"><rect width="120" height="100" rx="8" fill="#FFFFFF"/><path d="M20 80 60 24l40 56Z" fill="#F2B69F"/><rect x="48" y="56" width="24" height="24" fill="#356B57"/></g>
+    <g transform="translate(480 150) rotate(-2)"><rect width="120" height="100" rx="8" fill="#FFFFFF"/><path d="m60 18 10 22 24 3-18 16 5 24-21-12-21 12 5-24-18-16 24-3Z" fill="#DFD9EE"/></g>
+    <g transform="translate(660 146) rotate(4)"><rect width="120" height="100" rx="8" fill="#FFFFFF"/><path d="M20 70c20-40 60-40 80 0" stroke="#F2B69F" stroke-width="12" fill="none" stroke-linecap="round"/><path d="M28 70c16-28 48-28 64 0" stroke="#F3CB67" stroke-width="10" fill="none" stroke-linecap="round"/><path d="M38 70c10-16 34-16 44 0" stroke="#8DB89A" stroke-width="8" fill="none" stroke-linecap="round"/></g>
+    <g transform="translate(840 120) rotate(-3)"><rect width="120" height="100" rx="8" fill="#FFFFFF"/><ellipse cx="60" cy="56" rx="34" ry="24" fill="#8DB89A"/><circle cx="84" cy="48" r="4" fill="#253D35"/><path d="M26 56 10 42v28Z" fill="#8DB89A"/></g>
+  </g>
+  <g fill="#F2B69F"><circle cx="180" cy="104" r="7"/><circle cx="360" cy="132" r="7"/><circle cx="540" cy="138" r="7"/><circle cx="720" cy="132" r="7"/><circle cx="900" cy="106" r="7"/></g>
+  <!-- cavalete -->
+  <g transform="translate(860 250)">
+    <path d="M40 520 130 0M260 520 170 0M150 60v480" stroke="#9B6B4A" stroke-width="16" stroke-linecap="round"/>
+    <rect x="30" y="80" width="240" height="250" rx="10" fill="#FFFFFF" stroke="#D9A77A" stroke-width="8"/>
+    <circle cx="190" cy="150" r="36" fill="#F3CB67"/>
+    <path d="M50 300c40-60 90-70 130-40s60 20 80-10v60H50Z" fill="#8DB89A"/>
+    <path d="M70 250c16-40 30-40 44 0M96 290c10-26 20-26 30 0" stroke="#356B57" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <rect x="20" y="330" width="260" height="20" rx="8" fill="#C98F63"/>
+  </g>
+  <!-- mesa -->
+  <g>
+    <rect x="80" y="560" width="660" height="40" rx="18" fill="#D9A77A"/>
+    <rect x="80" y="580" width="660" height="20" rx="8" fill="#C98F63"/>
+    <rect x="120" y="598" width="26" height="200" rx="10" fill="#C98F63"/>
+    <rect x="674" y="598" width="26" height="200" rx="10" fill="#C98F63"/>
+    <!-- folha de papel com recortes -->
+    <rect x="140" y="520" width="220" height="44" rx="6" fill="#FFFFFF" transform="skewX(-20) translate(190 0)"/>
+    <path d="M300 540c10-16 30-18 40-4-12 12-28 14-40 4Z" fill="#8DB89A"/>
+    <path d="M360 544c12-14 30-12 36 2-12 10-28 10-36-2Z" fill="#6FA283"/>
+    <!-- frascos de tinta -->
+    <g transform="translate(440 470)">
+      <rect width="56" height="90" rx="14" fill="#F2B69F"/><rect x="8" y="-12" width="40" height="18" rx="6" fill="#FFFFFF"/>
+      <rect x="70" y="18" width="56" height="72" rx="14" fill="#F3CB67"/><rect x="78" y="6" width="40" height="18" rx="6" fill="#FFFFFF"/>
+      <rect x="140" y="8" width="56" height="82" rx="14" fill="#DFD9EE"/><rect x="148" y="-4" width="40" height="18" rx="6" fill="#FFFFFF"/>
+    </g>
+    <!-- frasco com pincéis -->
+    <g transform="translate(180 430)">
+      <path d="M14 30 4 0M40 30l4-40M62 30l18-34" stroke="#9B6B4A" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="4" cy="-2" r="8" fill="#F2B69F"/><circle cx="44" cy="-12" r="8" fill="#356B57"/><circle cx="80" cy="-6" r="8" fill="#F3CB67"/>
+      <rect x="0" y="26" width="80" height="104" rx="18" fill="#DCEEF2"/>
+      <rect x="0" y="80" width="80" height="50" rx="18" fill="#B9D7E0"/>
+    </g>
+  </g>
+  <!-- bancos -->
+  <g fill="#8DB89A"><rect x="150" y="720" width="140" height="30" rx="12"/><rect x="170" y="748" width="20" height="90" rx="8"/><rect x="250" y="748" width="20" height="90" rx="8"/></g>
+  <g fill="#F3CB67"><rect x="500" y="720" width="140" height="30" rx="12"/><rect x="520" y="748" width="20" height="90" rx="8"/><rect x="600" y="748" width="20" height="90" rx="8"/></g>
+  <!-- livros no chão -->
+  <g transform="translate(40 820)">
+    <rect width="120" height="26" rx="6" fill="#356B57"/><rect x="10" y="-24" width="110" height="26" rx="6" fill="#F2B69F"/><rect x="4" y="-48" width="104" height="26" rx="6" fill="#DFD9EE"/>
+  </g>
+  <!-- folhas recortadas no chão -->
+  <g fill="#6FA283" opacity="0.9"><path d="M760 840c14-20 40-22 52-4-16 14-38 16-52 4Z"/><path d="M820 870c10-18 34-18 42-2-14 12-32 12-42 2Z" fill="#F3CB67"/></g>
+</svg>

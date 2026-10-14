@@ -1,0 +1,111 @@
+[
+	{
+		"slug": "fachada",
+		"file": "fachada-babymoura.webp",
+		"title": "Entrada da BabyMoura",
+		"alt": "Fachada da BabyMoura com a placa Creche e Pré-Escolar sobre a porta de entrada",
+		"caption": "A entrada, na Rua das Estrelas, em Vilamoura.",
+		"rights": "pendente",
+		"origin": "Fotografia do site atual (babymoura.com, IMG_4725, 2016); autorização de reutilização a confirmar",
+		"spaces": [
+			"entrada"
+		]
+	},
+	{
+		"slug": "ilustracao-jardim-hero",
+		"file": "ilustracao-jardim-hero.webp",
+		"title": "Jardim de descobertas",
+		"alt": "Ilustração de um jardim luminoso com árvore, canteiros com rebentos e um pequeno escorrega",
+		"caption": "Ilustração provisória — a substituir por fotografia do jardim exterior.",
+		"rights": "ilustrativa",
+		"origin": "Ilustração provisória criada para a proposta (sem pessoas nem instalações reais)",
+		"spaces": [
+			"exterior"
+		]
+	},
+	{
+		"slug": "ilustracao-creche",
+		"file": "ilustracao-creche.webp",
+		"title": "Canto da creche",
+		"alt": "Ilustração de um canto de brincar com tapete macio, blocos de encaixe e almofadas",
+		"caption": "Ilustração provisória — a substituir por fotografia de uma sala da creche.",
+		"rights": "ilustrativa",
+		"origin": "Ilustração provisória criada para a proposta (sem pessoas nem instalações reais)",
+		"spaces": [
+			"salas-creche"
+		]
+	},
+	{
+		"slug": "ilustracao-jardim-infancia",
+		"file": "ilustracao-jardim-infancia.webp",
+		"title": "Sala do jardim de infância",
+		"alt": "Ilustração de uma mesa de trabalhos com tintas, papéis recortados e um cavalete",
+		"caption": "Ilustração provisória — a substituir por fotografia de uma sala do jardim de infância.",
+		"rights": "ilustrativa",
+		"origin": "Ilustração provisória criada para a proposta (sem pessoas nem instalações reais)",
+		"spaces": [
+			"salas-jardim"
+		]
+	},
+	{
+		"slug": "ilustracao-exterior",
+		"file": "ilustracao-exterior.webp",
+		"title": "Jardim exterior",
+		"alt": "Ilustração panorâmica de um jardim com relvado, árvores, equipamentos de brincar e canteiros",
+		"caption": "Ilustração provisória — a substituir por fotografia panorâmica do jardim exterior.",
+		"rights": "ilustrativa",
+		"origin": "Ilustração provisória criada para a proposta (sem pessoas nem instalações reais)",
+		"spaces": [
+			"exterior"
+		]
+	},
+	{
+		"slug": "ilustracao-horta",
+		"file": "ilustracao-horta.webp",
+		"title": "Horta pedagógica",
+		"alt": "Ilustração de canteiros elevados com rebentos, um regador e pequenas placas com nomes das plantas",
+		"caption": "Ilustração provisória — a substituir por fotografia da horta pedagógica.",
+		"rights": "ilustrativa",
+		"origin": "Ilustração provisória criada para a proposta (sem pessoas nem instalações reais)",
+		"spaces": [
+			"horta"
+		]
+	},
+	{
+		"slug": "ilustracao-sala-luz",
+		"file": "ilustracao-sala-luz.webp",
+		"title": "Sala com luz natural",
+		"alt": "Ilustração de uma sala ampla com janelas grandes, estantes baixas e um tapete ao sol",
+		"caption": "Ilustração provisória — a substituir por fotografia de uma sala com luz natural.",
+		"rights": "ilustrativa",
+		"origin": "Ilustração provisória criada para a proposta (sem pessoas nem instalações reais)",
+		"spaces": [
+			"salas-creche",
+			"salas-jardim"
+		]
+	},
+	{
+		"slug": "ilustracao-musica",
+		"file": "ilustracao-musica.webp",
+		"title": "Música",
+		"alt": "Ilustração de instrumentos infantis: pandeireta, xilofone e maracas sobre um tapete",
+		"caption": "Ilustração provisória — a substituir por fotografia de uma atividade de música, com consentimento.",
+		"rights": "ilustrativa",
+		"origin": "Ilustração provisória criada para a proposta (sem pessoas nem instalações reais)",
+		"spaces": [
+			"salas-jardim"
+		]
+	},
+	{
+		"slug": "ilustracao-movimento",
+		"file": "ilustracao-movimento.webp",
+		"title": "Movimento",
+		"alt": "Ilustração de arcos, bolas e colchões coloridos para atividades de movimento",
+		"caption": "Ilustração provisória — a substituir por fotografia do espaço de psicomotricidade.",
+		"rights": "ilustrativa",
+		"origin": "Ilustração provisória criada para a proposta (sem pessoas nem instalações reais)",
+		"spaces": [
+			"salas-creche"
+		]
+	}
+]

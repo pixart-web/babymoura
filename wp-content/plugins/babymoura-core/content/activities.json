@@ -1,0 +1,98 @@
+[
+	{
+		"slug": "educacao-musical",
+		"title": "Educação musical",
+		"excerpt": "Ritmo, voz e escuta, partilhados em grupo.",
+		"meta": {
+			"bm_creche": "curricular",
+			"bm_jardim": "curricular",
+			"bm_icon": "music",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "psicomotricidade",
+		"title": "Psicomotricidade",
+		"excerpt": "Descobrir o corpo, o equilíbrio e o movimento.",
+		"meta": {
+			"bm_creche": "curricular",
+			"bm_jardim": "curricular",
+			"bm_icon": "movement",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "iniciacao-ingles",
+		"title": "Iniciação à língua inglesa",
+		"excerpt": "Primeiros contactos com a língua inglesa.",
+		"meta": {
+			"bm_creche": "extracurricular",
+			"bm_jardim": "curricular",
+			"bm_icon": "language",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "horta-pedagogica",
+		"title": "Horta pedagógica",
+		"excerpt": "Semear, cuidar e ver crescer, na horta da escola.",
+		"meta": {
+			"bm_creche": "",
+			"bm_jardim": "curricular",
+			"bm_icon": "garden",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "natacao",
+		"title": "Natação",
+		"excerpt": "",
+		"meta": {
+			"bm_creche": "extracurricular",
+			"bm_jardim": "extracurricular",
+			"bm_icon": "water",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "ballet",
+		"title": "Ballet",
+		"excerpt": "",
+		"meta": {
+			"bm_creche": "",
+			"bm_jardim": "extracurricular",
+			"bm_icon": "dance",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "tenis",
+		"title": "Ténis",
+		"excerpt": "",
+		"meta": {
+			"bm_creche": "",
+			"bm_jardim": "extracurricular",
+			"bm_icon": "tennis",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "pre-karate",
+		"title": "Pré-karaté",
+		"excerpt": "",
+		"meta": {
+			"bm_creche": "",
+			"bm_jardim": "extracurricular",
+			"bm_icon": "karate",
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	}
+]

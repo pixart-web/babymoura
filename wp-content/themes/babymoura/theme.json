@@ -1,0 +1,148 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": {
+			"contentSize": "760px",
+			"wideSize": "1240px"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"custom": false,
+			"customGradient": false,
+			"gradients": [],
+			"duotone": [],
+			"palette": [
+				{ "slug": "creme", "name": "Creme (fundo principal)", "color": "#FFF9F0" },
+				{ "slug": "branco", "name": "Branco (superfície)", "color": "#FFFFFF" },
+				{ "slug": "verde", "name": "Verde de marca (ações)", "color": "#356B57" },
+				{ "slug": "verde-profundo", "name": "Verde profundo (hover)", "color": "#2A5745" },
+				{ "slug": "texto", "name": "Texto principal", "color": "#253D35" },
+				{ "slug": "texto-suave", "name": "Texto secundário", "color": "#4E625A" },
+				{ "slug": "salvia", "name": "Sálvia (superfície)", "color": "#DDE9D7" },
+				{ "slug": "amarelo", "name": "Amarelo (acento)", "color": "#F3CB67" },
+				{ "slug": "pessego", "name": "Pêssego (acento)", "color": "#F2B69F" },
+				{ "slug": "lavanda", "name": "Lavanda (acento)", "color": "#DFD9EE" },
+				{ "slug": "areia", "name": "Areia (superfície)", "color": "#F7E6CC" }
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"customFontSize": false,
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"slug": "nunito",
+					"name": "Nunito (títulos)",
+					"fontFamily": "Nunito, \"Nunito Fallback\", ui-rounded, \"Segoe UI\", sans-serif",
+					"fontFace": [
+						{ "fontFamily": "Nunito", "fontStyle": "normal", "fontWeight": "400 900", "fontDisplay": "swap", "src": [ "file:./assets/fonts/nunito-latin-wght.woff2" ], "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD" },
+						{ "fontFamily": "Nunito", "fontStyle": "normal", "fontWeight": "400 900", "fontDisplay": "swap", "src": [ "file:./assets/fonts/nunito-latin-ext-wght.woff2" ], "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF" }
+					]
+				},
+				{
+					"slug": "inter",
+					"name": "Inter (texto)",
+					"fontFamily": "Inter, \"Inter Fallback\", system-ui, -apple-system, \"Segoe UI\", sans-serif",
+					"fontFace": [
+						{ "fontFamily": "Inter", "fontStyle": "normal", "fontWeight": "400 700", "fontDisplay": "swap", "src": [ "file:./assets/fonts/inter-latin-wght.woff2" ], "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD" },
+						{ "fontFamily": "Inter", "fontStyle": "normal", "fontWeight": "400 700", "fontDisplay": "swap", "src": [ "file:./assets/fonts/inter-latin-ext-wght.woff2" ], "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF" }
+					]
+				}
+			],
+			"fontSizes": [
+				{ "slug": "small", "name": "Pequeno", "size": "1rem", "fluid": false },
+				{ "slug": "medium", "name": "Texto", "size": "1.0625rem", "fluid": false },
+				{ "slug": "large", "name": "Destaque", "size": "1.25rem", "fluid": { "min": "1.125rem", "max": "1.375rem" } },
+				{ "slug": "x-large", "name": "Subtítulo", "size": "1.75rem", "fluid": { "min": "1.375rem", "max": "1.875rem" } },
+				{ "slug": "xx-large", "name": "Título de secção", "size": "2.75rem", "fluid": { "min": "1.875rem", "max": "2.875rem" } },
+				{ "slug": "display", "name": "Título principal", "size": "3.75rem", "fluid": { "min": "2.375rem", "max": "3.875rem" } }
+			]
+		},
+		"spacing": {
+			"defaultSpacingSizes": false,
+			"units": [ "px", "rem", "%", "vw" ],
+			"spacingSizes": [
+				{ "slug": "10", "name": "XXS", "size": "0.5rem" },
+				{ "slug": "20", "name": "XS", "size": "0.75rem" },
+				{ "slug": "30", "name": "S", "size": "1rem" },
+				{ "slug": "40", "name": "M", "size": "1.5rem" },
+				{ "slug": "50", "name": "L", "size": "clamp(1.75rem, 3vw, 2.5rem)" },
+				{ "slug": "60", "name": "XL", "size": "clamp(2.5rem, 5vw, 4rem)" },
+				{ "slug": "70", "name": "XXL", "size": "clamp(3.5rem, 8vw, 6.5rem)" },
+				{ "slug": "80", "name": "XXXL", "size": "clamp(4.5rem, 11vw, 9rem)" }
+			]
+		},
+		"shadow": {
+			"defaultPresets": false,
+			"presets": [
+				{ "slug": "suave", "name": "Suave", "shadow": "0 1px 2px rgba(37,61,53,.06), 0 8px 24px -8px rgba(37,61,53,.14)" },
+				{ "slug": "elevada", "name": "Elevada", "shadow": "0 2px 4px rgba(37,61,53,.06), 0 24px 48px -16px rgba(37,61,53,.22)" }
+			]
+		},
+		"custom": {
+			"radius": { "sm": "12px", "md": "20px", "lg": "28px", "xl": "40px", "pill": "999px" },
+			"blob": {
+				"a": "58% 42% 52% 48% / 48% 54% 46% 52%",
+				"b": "42% 58% 46% 54% / 56% 44% 56% 44%",
+				"c": "50% 50% 38% 62% / 60% 42% 58% 40%"
+			},
+			"motion": { "fast": "160ms", "base": "320ms", "slow": "700ms", "ease": "cubic-bezier(.2,.7,.2,1)" },
+			"lineHeight": { "tight": "1.12", "heading": "1.2", "body": "1.65" }
+		},
+		"blocks": {
+			"core/button": { "border": { "radius": false } }
+		}
+	},
+	"styles": {
+		"color": { "background": "var(--wp--preset--color--creme)", "text": "var(--wp--preset--color--texto)" },
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "var(--wp--custom--line-height--body)"
+		},
+		"spacing": {
+			"blockGap": "1.25rem",
+			"padding": { "left": "clamp(1rem, 4vw, 2.5rem)", "right": "clamp(1rem, 4vw, 2.5rem)" }
+		},
+		"elements": {
+			"heading": {
+				"color": { "text": "var(--wp--preset--color--texto)" },
+				"typography": { "fontFamily": "var(--wp--preset--font-family--nunito)", "fontWeight": "800", "lineHeight": "var(--wp--custom--line-height--heading)", "letterSpacing": "-0.01em" }
+			},
+			"h1": { "typography": { "fontSize": "var(--wp--preset--font-size--display)", "lineHeight": "var(--wp--custom--line-height--tight)", "fontWeight": "900" } },
+			"h2": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" } },
+			"h3": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)", "fontWeight": "800" } },
+			"h4": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+			"link": {
+				"color": { "text": "var(--wp--preset--color--verde)" },
+				"typography": { "textDecoration": "underline" },
+				":hover": { "color": { "text": "var(--wp--preset--color--verde-profundo)" } }
+			},
+			"button": {
+				"color": { "background": "var(--wp--preset--color--verde)", "text": "var(--wp--preset--color--branco)" },
+				"typography": { "fontFamily": "var(--wp--preset--font-family--nunito)", "fontWeight": "800", "fontSize": "1.0625rem", "lineHeight": "1.2" },
+				"border": { "radius": "var(--wp--custom--radius--pill)", "width": "0" },
+				"spacing": { "padding": { "top": "0.95rem", "bottom": "0.95rem", "left": "1.6rem", "right": "1.6rem" } },
+				":hover": { "color": { "background": "var(--wp--preset--color--verde-profundo)", "text": "var(--wp--preset--color--branco)" } },
+				":focus": { "color": { "background": "var(--wp--preset--color--verde-profundo)", "text": "var(--wp--preset--color--branco)" } }
+			},
+			"caption": { "typography": { "fontSize": "var(--wp--preset--font-size--small)" }, "color": { "text": "var(--wp--preset--color--texto-suave)" } }
+		},
+		"blocks": {
+			"core/navigation": { "typography": { "fontFamily": "var(--wp--preset--font-family--nunito)", "fontWeight": "700", "fontSize": "1.0625rem" } }
+		}
+	},
+	"templateParts": [
+		{ "name": "header", "title": "Cabeçalho", "area": "header" },
+		{ "name": "footer", "title": "Rodapé", "area": "footer" }
+	],
+	"customTemplates": [
+		{ "name": "page-legal", "title": "Página de texto legal", "postTypes": [ "page" ] }
+	]
+}

@@ -1,0 +1,98 @@
+[
+	{
+		"slug": "diferenca-creche-jardim",
+		"title": "Qual é a diferença entre creche e jardim de infância?",
+		"content": "<p>A <strong>creche</strong> acolhe a primeira infância, até aos 3 anos: uma fase de afeto, cuidados próximos e primeiras descobertas.</p><p>O <strong>jardim de infância</strong> é a educação pré-escolar, dos 3 aos 6 anos. Aqui ganham espaço a autonomia, os projetos em grupo e a criatividade.</p><p>Se tiver dúvidas sobre a resposta mais adequada, fale connosco numa visita.</p>",
+		"status": "publish",
+		"meta": {
+			"bm_group": "geral",
+			"bm_home": 1,
+			"bm_validation": "confirmado",
+			"bm_source": "Proposta editorial com base nos dados publicados; rever antes do lançamento"
+		}
+	},
+	{
+		"slug": "como-pedir-visita",
+		"title": "Como posso pedir uma visita?",
+		"content": "<p>Preencha o <a href=\"/contactos/#pedido-de-visita\">pedido de visita</a> ou contacte-nos por telefone ou email. A equipa responde para combinar o dia e a hora que funcionam para ambos. O envio do pedido ainda não é uma marcação.</p>",
+		"status": "publish",
+		"meta": {
+			"bm_group": "visitas",
+			"bm_home": 1,
+			"bm_validation": "confirmado",
+			"bm_source": "Proposta editorial com base nos dados publicados; rever antes do lançamento"
+		}
+	},
+	{
+		"slug": "onde-fica",
+		"title": "Onde fica a BabyMoura?",
+		"content": "<p>Na Rua das Estrelas – Clube Vilamar, no centro de Vilamoura (8125-468 Quarteira), a cerca de 200 metros da Marina. Na <a href=\"/contactos/\">página de contactos</a> encontra a ligação para abrir a localização no mapa.</p>",
+		"status": "publish",
+		"meta": {
+			"bm_group": "geral",
+			"bm_home": 1,
+			"bm_validation": "confirmado",
+			"bm_source": "Proposta editorial com base nos dados publicados; rever antes do lançamento"
+		}
+	},
+	{
+		"slug": "como-iniciar-pre-inscricao",
+		"title": "Como começo uma pré-inscrição?",
+		"content": "<p>Através do <a href=\"/pre-inscricao/\">formulário de pré-inscrição</a>: indica os seus contactos, a resposta educativa, a idade aproximada da criança e quando gostaria que começasse. Não pedimos documentos nesta fase.</p><p>A pré-inscrição é uma manifestação de interesse: não confirma vaga nem inscrição. A equipa entra em contacto para explicar os passos seguintes.</p>",
+		"status": "publish",
+		"meta": {
+			"bm_group": "inscricao",
+			"bm_home": 1,
+			"bm_validation": "confirmado",
+			"bm_source": "Proposta editorial com base nos dados publicados; rever antes do lançamento"
+		}
+	},
+	{
+		"slug": "pre-inscricao-vaga",
+		"title": "A pré-inscrição garante uma vaga?",
+		"content": "<p>Não. A pré-inscrição regista o seu interesse. A disponibilidade e os passos para a inscrição são explicados pela equipa quando entrar em contacto.</p>",
+		"status": "publish",
+		"meta": {
+			"bm_group": "inscricao",
+			"bm_home": 0,
+			"bm_validation": "confirmado",
+			"bm_source": "Proposta editorial com base nos dados publicados; rever antes do lançamento"
+		}
+	},
+	{
+		"slug": "horario",
+		"title": "Qual é o horário?",
+		"content": "<p>Estamos a confirmar a informação de horário para este novo site. Contacte-nos por telefone ou email para conhecer o horário em vigor.</p>",
+		"status": "publish",
+		"meta": {
+			"bm_group": "dia-a-dia",
+			"bm_home": 0,
+			"bm_validation": "confirmado",
+			"bm_source": "Proposta editorial com base nos dados publicados; rever antes do lançamento"
+		}
+	},
+	{
+		"slug": "alimentacao",
+		"title": "Como funciona a alimentação?",
+		"content": "<p>[Rascunho — não publicar sem confirmação] O site atual refere alimentação completa, com ementas elaboradas por uma dietista. A instituição deve confirmar e completar esta resposta.</p>",
+		"status": "draft",
+		"meta": {
+			"bm_group": "dia-a-dia",
+			"bm_home": 0,
+			"bm_validation": "pendente",
+			"bm_source": "babymoura.com/servicios/ (consultado a 28/09/2026)"
+		}
+	},
+	{
+		"slug": "adaptacao",
+		"title": "Como é o período de adaptação?",
+		"content": "<p>[Rascunho — resposta a fornecer pela instituição. Não publicar práticas genéricas como política da BabyMoura.]</p>",
+		"status": "draft",
+		"meta": {
+			"bm_group": "dia-a-dia",
+			"bm_home": 0,
+			"bm_validation": "pendente",
+			"bm_source": "Sem informação publicada"
+		}
+	}
+]

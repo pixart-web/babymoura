@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <rect width="1200" height="560" fill="#FDF1E6"/>
+  <rect y="550" width="1200" height="350" fill="#DDE9D7"/>
+  <rect y="546" width="1200" height="12" fill="#F7E6CC"/>
+  <!-- barras na parede -->
+  <g transform="translate(820 90)">
+    <rect x="0" y="0" width="18" height="460" rx="9" fill="#D9A77A"/><rect x="262" y="0" width="18" height="460" rx="9" fill="#D9A77A"/>
+    <g fill="#E4BD92"><rect x="10" y="60" width="260" height="14" rx="7"/><rect x="10" y="140" width="260" height="14" rx="7"/><rect x="10" y="220" width="260" height="14" rx="7"/><rect x="10" y="300" width="260" height="14" rx="7"/><rect x="10" y="380" width="260" height="14" rx="7"/></g>
+  </g>
+  <!-- grinalda de bandeirinhas -->
+  <path d="M0 80c150 40 300 40 450 0s300-40 400 0" fill="none" stroke="#9B6B4A" stroke-width="4"/>
+  <g>
+    <path d="M60 94 110 102 80 150Z" fill="#F2B69F"/><path d="M150 106l52 2-24 50Z" fill="#F3CB67"/><path d="M250 110l52-2-22 50Z" fill="#8DB89A"/>
+    <path d="M350 104l50-8-16 50Z" fill="#DFD9EE"/><path d="M460 84l50-10-12 50Z" fill="#F2B69F"/><path d="M570 66l50-4-18 48Z" fill="#F3CB67"/><path d="M680 62l50 4-26 46Z" fill="#8DB89A"/>
+  </g>
+  <!-- colchões empilhados -->
+  <g transform="translate(90 430)">
+    <rect x="0" y="120" width="380" height="80" rx="26" fill="#356B57"/>
+    <rect x="16" y="50" width="350" height="76" rx="26" fill="#F3CB67"/>
+    <rect x="40" y="-16" width="300" height="72" rx="26" fill="#F2B69F"/>
+    <path d="M60 158h300M76 88h270M96 20h220" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="10 12" opacity="0.6"/>
+  </g>
+  <!-- rampa macia -->
+  <path d="M470 650h260v-110Z" fill="#DFD9EE"/><path d="M470 650h260v-110" fill="none" stroke="#C9C0E0" stroke-width="6" stroke-linejoin="round"/>
+  <!-- trave de equilíbrio -->
+  <g transform="translate(460 700)"><rect x="0" y="0" width="460" height="34" rx="17" fill="#D9A77A"/><rect x="40" y="30" width="34" height="50" rx="10" fill="#C98F63"/><rect x="386" y="30" width="34" height="50" rx="10" fill="#C98F63"/></g>
+  <!-- arcos -->
+  <g fill="none" stroke-width="18">
+    <ellipse cx="220" cy="790" rx="150" ry="44" stroke="#F3CB67"/>
+    <ellipse cx="300" cy="820" rx="130" ry="38" stroke="#8DB89A"/>
+    <ellipse cx="1030" cy="800" rx="130" ry="40" stroke="#F2B69F"/>
+  </g>
+  <!-- bolas -->
+  <g transform="translate(980 640)"><circle r="70" fill="#F2B69F"/><path d="M-70 0h140M0-70c30 40 30 100 0 140" stroke="#FFF9F0" stroke-width="10" fill="none"/></g>
+  <g transform="translate(1110 700)"><circle r="44" fill="#8DB89A"/><circle cx="-14" cy="-14" r="12" fill="#B9D3B2"/></g>
+  <g transform="translate(640 820)"><circle r="40" fill="#F3CB67"/><path d="M-40 0c20-14 60-14 80 0" stroke="#FFF9F0" stroke-width="8" fill="none"/></g>
+  <!-- cones -->
+  <g><path d="M720 880l24-80 24 80Z" fill="#E8795E"/><rect x="712" y="874" width="64" height="12" rx="6" fill="#E8795E"/><path d="M733 836h22" stroke="#FFF9F0" stroke-width="7"/></g>
+  <g><path d="M820 880l24-80 24 80Z" fill="#F3CB67"/><rect x="812" y="874" width="64" height="12" rx="6" fill="#F3CB67"/><path d="M833 836h22" stroke="#FFF9F0" stroke-width="7"/></g>
+</svg>

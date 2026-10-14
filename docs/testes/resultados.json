@@ -1,0 +1,513 @@
+{
+  "config": {
+    "configFile": "/Users/tiago/Claude/BAbyMoura-Site/tools/playwright.config.mjs",
+    "rootDir": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../docs/testes/resultados.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/tiago/Claude/BAbyMoura-Site/tools/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/tiago/Claude/BAbyMoura-Site/tools/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "site.spec.mjs",
+      "file": "site.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Páginas e ligações",
+          "file": "site.spec.mjs",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "não há botões ou ligações vazias/decorativas",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 582,
+                      "error": {
+                        "message": "Error: /\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"<a class=\\\"wp-block-navigation-item__content\\\" href=\\\"http://localhost:8090/creche/\\\"><span class=\\\"wp-block-navigation-item_\",\u001b[39m\n\u001b[31m+   \"<a class=\\\"wp-block-navigation-item__content\\\" href=\\\"http://localhost:8090/jardim-de-infancia/\\\"><span class=\\\"wp-block-navi\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: /\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"<a class=\\\"wp-block-navigation-item__content\\\" href=\\\"http://localhost:8090/creche/\\\"><span class=\\\"wp-block-navigation-item_\",\u001b[39m\n\u001b[31m+   \"<a class=\\\"wp-block-navigation-item__content\\\" href=\\\"http://localhost:8090/jardim-de-infancia/\\\"><span class=\\\"wp-block-navi\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:53:27",
+                        "location": {
+                          "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                          "column": 27,
+                          "line": 53
+                        },
+                        "snippet": "  51 |         return e.offsetParent !== null && (!name || !href || href === '#');\n  52 |       }).map((e) => e.outerHTML.slice(0, 120)));\n> 53 |       expect(empty, path).toEqual([]);\n     |                           ^\n  54 |     }\n  55 |   });\n  56 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                            "column": 27,
+                            "line": 53
+                          },
+                          "message": "Error: /\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 4\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"<a class=\\\"wp-block-navigation-item__content\\\" href=\\\"http://localhost:8090/creche/\\\"><span class=\\\"wp-block-navigation-item_\",\u001b[39m\n\u001b[31m+   \"<a class=\\\"wp-block-navigation-item__content\\\" href=\\\"http://localhost:8090/jardim-de-infancia/\\\"><span class=\\\"wp-block-navi\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  51 |         return e.offsetParent !== null && (!name || !href || href === '#');\n  52 |       }).map((e) => e.outerHTML.slice(0, 120)));\n> 53 |       expect(empty, path).toEqual([]);\n     |                           ^\n  54 |     }\n  55 |   });\n  56 |\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:53:27"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-29T13:54:50.548Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/tiago/Claude/BAbyMoura-Site/tools/test-results/site-Páginas-e-ligações-nã-042dd-ligações-vazias-decorativas-desktop/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                        "column": 27,
+                        "line": 53
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "892f01ebe3c3cd11efb8-cb551ad98b31411fcb3a",
+              "file": "site.spec.mjs",
+              "line": 52,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Navegação",
+          "file": "site.spec.mjs",
+          "line": 117,
+          "column": 6,
+          "specs": [
+            {
+              "title": "link para saltar para o conteúdo",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6006,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  locator('main')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('main')\u001b[22m\n\u001b[2m    9 × locator resolved to <main id=\"conteudo\" class=\"wp-block-group bm-main is-layout-flow wp-block-group-is-layout-flow\">…</main>\u001b[22m\n\u001b[2m      - unexpected value \"inactive\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  locator('main')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('main')\u001b[22m\n\u001b[2m    9 × locator resolved to <main id=\"conteudo\" class=\"wp-block-group bm-main is-layout-flow wp-block-group-is-layout-flow\">…</main>\u001b[22m\n\u001b[2m      - unexpected value \"inactive\"\u001b[22m\n\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:128:40",
+                        "location": {
+                          "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                          "column": 40,
+                          "line": 128
+                        },
+                        "snippet": "  126 |     await expect(skip).toBeFocused();\n  127 |     await page.keyboard.press('Enter');\n> 128 |     await expect(page.locator('main')).toBeFocused();\n      |                                        ^\n  129 |   });\n  130 | });\n  131 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                            "column": 40,
+                            "line": 128
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeFocused\u001b[2m()\u001b[22m failed\n\nLocator:  locator('main')\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeFocused\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('main')\u001b[22m\n\u001b[2m    9 × locator resolved to <main id=\"conteudo\" class=\"wp-block-group bm-main is-layout-flow wp-block-group-is-layout-flow\">…</main>\u001b[22m\n\u001b[2m      - unexpected value \"inactive\"\u001b[22m\n\n\n  126 |     await expect(skip).toBeFocused();\n  127 |     await page.keyboard.press('Enter');\n> 128 |     await expect(page.locator('main')).toBeFocused();\n      |                                        ^\n  129 |   });\n  130 | });\n  131 |\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:128:40"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-29T13:54:52.144Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/tiago/Claude/BAbyMoura-Site/tools/test-results/site-Navegação-link-para-saltar-para-o-conteúdo-desktop/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                        "column": 40,
+                        "line": 128
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "892f01ebe3c3cd11efb8-4688a1d62f364f539af1",
+              "file": "site.spec.mjs",
+              "line": 157,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Componentes",
+          "file": "site.spec.mjs",
+          "line": 170,
+          "column": 6,
+          "specs": [
+            {
+              "title": "galeria: filtros e visualização ampliada por teclado",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 60033,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                            "column": 66,
+                            "line": 150
+                          },
+                          "message": "Error: locator.click: Test timeout of 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Horta pedagógica' })\u001b[22m\n\n\n  148 |     const total = await items.count();\n  149 |     expect(total).toBeGreaterThan(5);\n> 150 |     await page.getByRole('button', { name: 'Horta pedagógica' }).click();\n      |                                                                  ^\n  151 |     await expect(page.getByRole('button', { name: 'Horta pedagógica' })).toHaveAttribute('aria-pressed', 'true');\n  152 |     await expect(items).toHaveCount(1);\n  153 |     await page.getByRole('button', { name: 'Todos' }).click();\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:150:66"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-29T13:54:58.666Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/tiago/Claude/BAbyMoura-Site/tools/test-results/site-Componentes-galeria-f-cac5b-ização-ampliada-por-teclado-desktop/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "892f01ebe3c3cd11efb8-4f9148e39cb34bdad85e",
+              "file": "site.spec.mjs",
+              "line": 184,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Formulários (demonstração)",
+          "file": "site.spec.mjs",
+          "line": 227,
+          "column": 6,
+          "specs": [
+            {
+              "title": "pedido de visita: erros ligados aos campos, depois sucesso de demonstração",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9224,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('form[data-bm-form=\"visita\"]').locator('.bm-form__status')\nExpected string: \u001b[32m\"demo\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('form[data-bm-form=\"visita\"]').locator('.bm-form__status')\u001b[22m\n\u001b[2m    9 × locator resolved to <div hidden=\"\" role=\"status\" tabindex=\"-1\" data-state=\"\" aria-live=\"polite\" class=\"bm-form__status\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('form[data-bm-form=\"visita\"]').locator('.bm-form__status')\nExpected string: \u001b[32m\"demo\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('form[data-bm-form=\"visita\"]').locator('.bm-form__status')\u001b[22m\n\u001b[2m    9 × locator resolved to <div hidden=\"\" role=\"status\" tabindex=\"-1\" data-state=\"\" aria-live=\"polite\" class=\"bm-form__status\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:205:26",
+                        "location": {
+                          "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                          "column": 26,
+                          "line": 205
+                        },
+                        "snippet": "  203 |     await submit.click({ force: true }).catch(() => {}); // duplo clique não deve gerar segundo pedido\n  204 |     const status = form.locator('.bm-form__status');\n> 205 |     await expect(status).toHaveAttribute('data-state', 'demo');\n      |                          ^\n  206 |     await expect(status).toContainText('não foram enviados nem guardados');\n  207 |     expect(requests).toBe(1);\n  208 |   });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                            "column": 26,
+                            "line": 205
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('form[data-bm-form=\"visita\"]').locator('.bm-form__status')\nExpected string: \u001b[32m\"demo\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('form[data-bm-form=\"visita\"]').locator('.bm-form__status')\u001b[22m\n\u001b[2m    9 × locator resolved to <div hidden=\"\" role=\"status\" tabindex=\"-1\" data-state=\"\" aria-live=\"polite\" class=\"bm-form__status\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\n\n  203 |     await submit.click({ force: true }).catch(() => {}); // duplo clique não deve gerar segundo pedido\n  204 |     const status = form.locator('.bm-form__status');\n> 205 |     await expect(status).toHaveAttribute('data-state', 'demo');\n      |                          ^\n  206 |     await expect(status).toContainText('não foram enviados nem guardados');\n  207 |     expect(requests).toBe(1);\n  208 |   });\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:205:26"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-29T13:55:59.295Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/tiago/Claude/BAbyMoura-Site/tools/test-results/site-Formulários-demonstra-6ccb6-ois-sucesso-de-demonstração-desktop/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                        "column": 26,
+                        "line": 205
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "892f01ebe3c3cd11efb8-fe89a0784434b3a7cb50",
+              "file": "site.spec.mjs",
+              "line": 228,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Servidor (API de formulários)",
+          "file": "site.spec.mjs",
+          "line": 289,
+          "column": 6,
+          "specs": [
+            {
+              "title": "validação no servidor, honeypot, tempo mínimo e token expirado",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4051,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m422\u001b[39m\nReceived: \u001b[31m429\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m422\u001b[39m\nReceived: \u001b[31m429\u001b[39m\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:243:26",
+                        "location": {
+                          "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                          "column": 26,
+                          "line": 243
+                        },
+                        "snippet": "  241 |     const old = `${Math.floor(Date.now() / 1000) - 10}`;\n  242 |     res = await request.post('/wp-json/babymoura/v1/forms/visita', { data: { bm_token: await (async () => { await new Promise((r) => setTimeout(r, 10)); return t; })(), name: 'A', email: 'x', stage: 'nada', message: 'x'.repeat(1001) } });\n> 243 |     expect(res.status()).toBe(422);\n      |                          ^\n  244 |     const body = await res.json();\n  245 |     expect(Object.keys(body.errors).sort()).toEqual(['email', 'message', 'name', 'stage']);\n  246 |     res = await request.post('/wp-json/babymoura/v1/forms/visita', { data: { bm_token: t, bm_website: 'spam', name: 'Bot' } });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                            "column": 26,
+                            "line": 243
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m422\u001b[39m\nReceived: \u001b[31m429\u001b[39m\n\n  241 |     const old = `${Math.floor(Date.now() / 1000) - 10}`;\n  242 |     res = await request.post('/wp-json/babymoura/v1/forms/visita', { data: { bm_token: await (async () => { await new Promise((r) => setTimeout(r, 10)); return t; })(), name: 'A', email: 'x', stage: 'nada', message: 'x'.repeat(1001) } });\n> 243 |     expect(res.status()).toBe(422);\n      |                          ^\n  244 |     const body = await res.json();\n  245 |     expect(Object.keys(body.errors).sort()).toEqual(['email', 'message', 'name', 'stage']);\n  246 |     res = await request.post('/wp-json/babymoura/v1/forms/visita', { data: { bm_token: t, bm_website: 'spam', name: 'Bot' } });\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:243:26"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-29T13:56:09.114Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                        "column": 26,
+                        "line": 243
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "892f01ebe3c3cd11efb8-1aa2fda7ea15c14bb617",
+              "file": "site.spec.mjs",
+              "line": 291,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Acessibilidade (axe, WCAG 2.2 AA)",
+          "file": "site.spec.mjs",
+          "line": 350,
+          "column": 6,
+          "specs": [
+            {
+              "title": "sem violações /",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "desktop",
+                  "projectName": "desktop",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 695,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"color-contrast: .bm-trust__item.bm-reveal.is-layout-flow:nth-child(1) > .bm-trust__title.wp-block-paragraph | .bm-trust__item.bm-reveal.is-layout-flow:nth-child(1) > .wp-block-paragraph:nth-child(3) | .bm-trust__item.bm-reveal.is-layout-flow:nth-child(2) > .wp-block-paragraph:nth-child(3)\",\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"color-contrast: .bm-trust__item.bm-reveal.is-layout-flow:nth-child(1) > .bm-trust__title.wp-block-paragraph | .bm-trust__item.bm-reveal.is-layout-flow:nth-child(1) > .wp-block-paragraph:nth-child(3) | .bm-trust__item.bm-reveal.is-layout-flow:nth-child(2) > .wp-block-paragraph:nth-child(3)\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:260:23",
+                        "location": {
+                          "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                          "column": 23,
+                          "line": 260
+                        },
+                        "snippet": "  258 |       const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa']).analyze();\n  259 |       const summary = results.violations.map((v) => `${v.id}: ${v.nodes.slice(0, 3).map((n) => n.target.join(' ')).join(' | ')}`);\n> 260 |       expect(summary).toEqual([]);\n      |                       ^\n  261 |     });\n  262 |   }\n  263 | });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                            "column": 23,
+                            "line": 260
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   \"color-contrast: .bm-trust__item.bm-reveal.is-layout-flow:nth-child(1) > .bm-trust__title.wp-block-paragraph | .bm-trust__item.bm-reveal.is-layout-flow:nth-child(1) > .wp-block-paragraph:nth-child(3) | .bm-trust__item.bm-reveal.is-layout-flow:nth-child(2) > .wp-block-paragraph:nth-child(3)\",\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n  258 |       const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa']).analyze();\n  259 |       const summary = results.violations.map((v) => `${v.id}: ${v.nodes.slice(0, 3).map((n) => n.target.join(' ')).join(' | ')}`);\n> 260 |       expect(summary).toEqual([]);\n      |                       ^\n  261 |     });\n  262 |   }\n  263 | });\n    at /Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs:260:23"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-29T13:56:13.439Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/tiago/Claude/BAbyMoura-Site/tools/test-results/site-Acessibilidade-axe-WCAG-2-2-AA-sem-violações--desktop/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/tiago/Claude/BAbyMoura-Site/tools/tests/site.spec.mjs",
+                        "column": 23,
+                        "line": 260
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "892f01ebe3c3cd11efb8-66d81e4c42e0fec36186",
+              "file": "site.spec.mjs",
+              "line": 352,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-29T13:54:50.274Z",
+    "duration": 84122.406,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 6,
+    "flaky": 0
+  }
+}

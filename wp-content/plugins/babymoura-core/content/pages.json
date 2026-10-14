@@ -1,0 +1,82 @@
+[
+	{
+		"slug": "inicio",
+		"title": "Início",
+		"pattern": "babymoura/page-home",
+		"template": "",
+		"seo_title": "BabyMoura · Creche e Jardim de Infância em Vilamoura, Algarve",
+		"description": "Creche e jardim de infância em Vilamoura, com jardim exterior e horta pedagógica. Conheça a BabyMoura e peça uma visita."
+	},
+	{
+		"slug": "a-babymoura",
+		"title": "A BabyMoura",
+		"pattern": "babymoura/page-about",
+		"template": "",
+		"seo_title": "A BabyMoura · Missão e história · Creche em Vilamoura",
+		"description": "Mais de três décadas em Vilamoura a acompanhar a primeira infância. Conheça a missão da BabyMoura e a relação próxima com as famílias."
+	},
+	{
+		"slug": "creche",
+		"title": "Creche",
+		"pattern": "babymoura/page-creche",
+		"template": "",
+		"seo_title": "Creche em Vilamoura · Primeira infância · BabyMoura",
+		"description": "A creche da BabyMoura em Vilamoura: afeto, segurança e primeiras descobertas, em salas pensadas para a primeira infância."
+	},
+	{
+		"slug": "jardim-de-infancia",
+		"title": "Jardim de Infância",
+		"pattern": "babymoura/page-jardim",
+		"template": "",
+		"seo_title": "Jardim de Infância em Vilamoura (3 aos 6 anos) · BabyMoura",
+		"description": "Jardim de infância em Vilamoura para crianças dos 3 aos 6 anos: descoberta, autonomia, criatividade e projetos em grupo."
+	},
+	{
+		"slug": "espacos",
+		"title": "Espaços",
+		"pattern": "babymoura/page-espacos",
+		"template": "",
+		"seo_title": "Espaços e jardim exterior · BabyMoura Vilamoura",
+		"description": "Salas amplas com luz natural, jardim exterior com relvado e árvores, e uma horta pedagógica. Veja os espaços da BabyMoura."
+	},
+	{
+		"slug": "atividades-e-servicos",
+		"title": "Atividades e Serviços",
+		"pattern": "babymoura/page-atividades",
+		"template": "",
+		"seo_title": "Atividades e serviços · Creche e Jardim de Infância · BabyMoura",
+		"description": "Atividades curriculares e extracurriculares da creche e do jardim de infância da BabyMoura, e serviços complementares."
+	},
+	{
+		"slug": "contactos",
+		"title": "Contactos",
+		"pattern": "babymoura/page-contactos",
+		"template": "",
+		"seo_title": "Contactos e pedido de visita · BabyMoura Vilamoura",
+		"description": "Telefone, email e morada da BabyMoura em Vilamoura. Peça uma visita para conhecer a creche e o jardim de infância."
+	},
+	{
+		"slug": "pre-inscricao",
+		"title": "Pré-inscrição",
+		"pattern": "babymoura/page-pre-inscricao",
+		"template": "",
+		"seo_title": "Pré-inscrição · BabyMoura Vilamoura",
+		"description": "Manifeste o seu interesse na creche ou no jardim de infância da BabyMoura. Formulário curto, sem documentos nesta fase."
+	},
+	{
+		"slug": "privacidade",
+		"title": "Política de Privacidade",
+		"pattern": "babymoura/page-privacidade",
+		"template": "page-legal",
+		"seo_title": "Política de Privacidade · BabyMoura",
+		"description": "Como a BabyMoura trata os dados pessoais recolhidos através do website."
+	},
+	{
+		"slug": "cookies",
+		"title": "Política de Cookies",
+		"pattern": "babymoura/page-cookies",
+		"template": "page-legal",
+		"seo_title": "Política de Cookies · BabyMoura",
+		"description": "Informação sobre a utilização de cookies no website da BabyMoura."
+	}
+]

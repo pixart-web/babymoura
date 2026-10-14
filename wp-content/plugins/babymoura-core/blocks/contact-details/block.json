@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "babymoura/contact-details",
+	"title": "Contactos da instituição",
+	"category": "babymoura",
+	"icon": "phone",
+	"description": "Telefone, email, morada, horário e mapa a partir dos dados centrais.",
+	"textdomain": "babymoura-core",
+	"attributes": {
+		"variant": {
+			"type": "string",
+			"default": "full",
+			"enum": [
+				"full",
+				"compact",
+				"footer"
+			]
+		},
+		"showHours": {
+			"type": "boolean",
+			"default": true
+		},
+		"showMap": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"anchor": true,
+		"className": true
+	},
+	"editorScript": "bm-editor",
+	"render": "file:./render.php"
+}

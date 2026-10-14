@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "babymoura/icon",
+	"title": "Ícone BabyMoura",
+	"category": "babymoura",
+	"icon": "star-empty",
+	"description": "Ícone decorativo do sistema visual.",
+	"textdomain": "babymoura-core",
+	"attributes": {
+		"name": {
+			"type": "string",
+			"default": "leaf"
+		},
+		"tone": {
+			"type": "string",
+			"default": "green",
+			"enum": [
+				"green",
+				"yellow",
+				"peach",
+				"lavender",
+				"sage"
+			]
+		},
+		"size": {
+			"type": "string",
+			"default": "md",
+			"enum": [
+				"sm",
+				"md",
+				"lg"
+			]
+		}
+	},
+	"supports": {
+		"html": false,
+		"className": true
+	},
+	"editorScript": "bm-editor",
+	"render": "file:./render.php"
+}

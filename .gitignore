@@ -1,0 +1,10 @@
+.env
+.env.local
+.credentials.local
+exports/*
+!exports/.gitkeep
+tools/node_modules/
+tools/test-results/
+tools/playwright-report/
+.DS_Store
+dist/

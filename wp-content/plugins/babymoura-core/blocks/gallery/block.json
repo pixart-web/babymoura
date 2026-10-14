@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "babymoura/gallery",
+	"title": "Galeria de espaços",
+	"category": "babymoura",
+	"icon": "format-gallery",
+	"description": "Imagens por espaço com filtros e visualização ampliada acessível.",
+	"textdomain": "babymoura-core",
+	"attributes": {
+		"space": {
+			"type": "string",
+			"default": ""
+		},
+		"filters": {
+			"type": "boolean",
+			"default": true
+		},
+		"limit": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"anchor": true,
+		"className": true
+	},
+	"editorScript": "bm-editor",
+	"render": "file:./render.php",
+	"viewScript": "bm-front"
+}

@@ -1,0 +1,90 @@
+# Ambiente local reproduzível da proposta BabyMoura.
+# Não usar este ficheiro em produção sem rever credenciais, volumes e SMTP.
+name: babymoura
+
+x-wp-env: &wp-env
+  WORDPRESS_DB_HOST: db
+  WORDPRESS_DB_NAME: wordpress
+  WORDPRESS_DB_USER: wordpress
+  WORDPRESS_DB_PASSWORD: ${DB_PASSWORD:-babymoura-local}
+  WP_ENVIRONMENT_TYPE: ${WP_ENVIRONMENT_TYPE:-local}
+  # demo = formulários validam mas não enviam nem guardam; production = guarda e notifica.
+  BABYMOURA_MODE: ${BABYMOURA_MODE:-demo}
+  BABYMOURA_FORM_RECIPIENT: ${BABYMOURA_FORM_RECIPIENT:-}
+  BABYMOURA_FORM_FROM: ${BABYMOURA_FORM_FROM:-}
+  BABYMOURA_SMTP_HOST: ${BABYMOURA_SMTP_HOST:-mailpit}
+  BABYMOURA_SMTP_PORT: ${BABYMOURA_SMTP_PORT:-1025}
+  BABYMOURA_SMTP_USER: ${BABYMOURA_SMTP_USER:-}
+  BABYMOURA_SMTP_PASS: ${BABYMOURA_SMTP_PASS:-}
+  BABYMOURA_SMTP_SECURE: ${BABYMOURA_SMTP_SECURE:-}
+  BABYMOURA_PREVIEW_AUTH: ${BABYMOURA_PREVIEW_AUTH:-}
+  WORDPRESS_CONFIG_EXTRA: |
+    define( 'WP_ENVIRONMENT_TYPE', getenv_docker( 'WP_ENVIRONMENT_TYPE', 'local' ) );
+    define( 'BABYMOURA_MODE', getenv_docker( 'BABYMOURA_MODE', 'demo' ) );
+    define( 'BABYMOURA_FORM_RECIPIENT', getenv_docker( 'BABYMOURA_FORM_RECIPIENT', '' ) );
+    define( 'BABYMOURA_FORM_FROM', getenv_docker( 'BABYMOURA_FORM_FROM', '' ) );
+    define( 'BABYMOURA_SMTP_HOST', getenv_docker( 'BABYMOURA_SMTP_HOST', '' ) );
+    define( 'BABYMOURA_SMTP_PORT', (int) getenv_docker( 'BABYMOURA_SMTP_PORT', '25' ) );
+    define( 'BABYMOURA_SMTP_USER', getenv_docker( 'BABYMOURA_SMTP_USER', '' ) );
+    define( 'BABYMOURA_SMTP_PASS', getenv_docker( 'BABYMOURA_SMTP_PASS', '' ) );
+    define( 'BABYMOURA_SMTP_SECURE', getenv_docker( 'BABYMOURA_SMTP_SECURE', '' ) );
+    define( 'BABYMOURA_PREVIEW_AUTH', getenv_docker( 'BABYMOURA_PREVIEW_AUTH', '' ) );
+    define( 'DISALLOW_FILE_EDIT', true );
+    define( 'WP_POST_REVISIONS', 20 );
+
+services:
+  db:
+    image: mariadb:11.4
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: ${DB_PASSWORD:-babymoura-local}
+      MARIADB_RANDOM_ROOT_PASSWORD: "1"
+    volumes:
+      - db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  wordpress:
+    image: wordpress:7.1-php8.3-apache
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "${WP_PORT:-8090}:80"
+    environment: *wp-env
+    volumes:
+      - wp:/var/www/html
+      - ./wp-content/themes/babymoura:/var/www/html/wp-content/themes/babymoura
+      - ./wp-content/plugins/babymoura-core:/var/www/html/wp-content/plugins/babymoura-core
+      - ./config/php.ini:/usr/local/etc/php/conf.d/babymoura.ini:ro
+
+  # Captura todos os emails enviados localmente. Nenhum email sai para a Internet.
+  mailpit:
+    image: axllent/mailpit:latest
+    ports:
+      - "${MAILPIT_PORT:-8026}:8025"
+
+  cli:
+    image: wordpress:cli-php8.3
+    profiles: ["tools"]
+    user: "33:33"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      <<: *wp-env
+      HOME: /tmp
+      WP_CLI_CACHE_DIR: /tmp/wp-cli-cache
+    volumes:
+      - wp:/var/www/html
+      - ./wp-content/themes/babymoura:/var/www/html/wp-content/themes/babymoura
+      - ./wp-content/plugins/babymoura-core:/var/www/html/wp-content/plugins/babymoura-core
+      - ./exports:/exports
+
+volumes:
+  db:
+  wp:

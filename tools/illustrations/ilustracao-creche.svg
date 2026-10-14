@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <pattern id="wall" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="2.2" fill="#F2B69F" opacity="0.25"/>
+    </pattern>
+    <linearGradient id="light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF6DA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFF6DA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- parede e chão -->
+  <rect width="1200" height="620" fill="#FFF3E6"/>
+  <rect width="1200" height="620" fill="url(#wall)"/>
+  <rect y="600" width="1200" height="300" fill="#EBCFA9"/>
+  <g stroke="#DDBB8E" stroke-width="3"><path d="M0 680h1200M0 770h1200M0 860h1200"/></g>
+  <rect y="596" width="1200" height="14" fill="#F7E6CC"/>
+  <!-- janela -->
+  <g transform="translate(760 110)">
+    <rect width="320" height="300" rx="150" fill="#DCEEF2"/>
+    <path d="M0 150h320M160 0v300" stroke="#FFFFFF" stroke-width="14"/>
+    <rect width="320" height="300" rx="150" fill="none" stroke="#FFFFFF" stroke-width="18"/>
+    <circle cx="240" cy="90" r="34" fill="#F3CB67"/>
+    <path d="M40 240c40-30 80-40 120-24s80 10 120-20v60H40Z" fill="#B9D3B2" opacity="0.9"/>
+  </g>
+  <path d="M760 410 1080 410 1180 900 520 900Z" fill="url(#light)" opacity="0.6"/>
+  <!-- planta -->
+  <g transform="translate(1100 440)">
+    <path d="M-40 160h80l-12-70h-56Z" fill="#F2B69F"/>
+    <g fill="#6FA283"><ellipse cx="-20" cy="50" rx="18" ry="46" transform="rotate(-24 -20 50)"/><ellipse cx="18" cy="40" rx="18" ry="52" transform="rotate(18 18 40)"/><ellipse cx="0" cy="30" rx="16" ry="56" fill="#5E9474"/></g>
+  </g>
+  <!-- móbile -->
+  <g transform="translate(360 0)" stroke="#9B6B4A" stroke-width="3" fill="none">
+    <path d="M0 0v70M-120 70h240"/>
+    <path d="M-120 70v90M-40 70v60M40 70v110M120 70v70"/>
+  </g>
+  <g transform="translate(360 0)">
+    <path d="m-120 160 10 20 22 3-16 15 4 22-20-10-20 10 4-22-16-15 22-3Z" fill="#F3CB67"/>
+    <circle cx="-40" cy="148" r="20" fill="#DFD9EE"/>
+    <path d="M40 180a24 24 0 1 0 22 32 18 18 0 1 1-22-32Z" fill="#F3CB67"/>
+    <path d="M100 150c0-12 10-20 22-18 4-10 16-14 26-10 8 4 12 10 12 18 10 0 16 8 16 16s-8 14-16 14h-44c-10 0-16-8-16-20Z" fill="#FFFFFF" stroke="#E8DCCB" stroke-width="2"/>
+  </g>
+  <!-- estante baixa -->
+  <g transform="translate(60 380)">
+    <rect width="380" height="230" rx="18" fill="#D9A77A"/>
+    <rect x="16" y="16" width="348" height="94" rx="10" fill="#C98F63"/>
+    <rect x="16" y="122" width="348" height="92" rx="10" fill="#C98F63"/>
+    <rect x="34" y="40" width="96" height="70" rx="14" fill="#DDE9D7"/>
+    <rect x="144" y="46" width="96" height="64" rx="14" fill="#DFD9EE"/>
+    <rect x="254" y="40" width="96" height="70" rx="14" fill="#FDE3B0"/>
+    <g fill="#FFF9F0" opacity="0.7"><path d="M34 60h96M144 66h96M254 60h96" stroke="#FFF9F0" stroke-width="3"/></g>
+    <circle cx="80" cy="170" r="30" fill="#F2B69F"/>
+    <rect x="130" y="140" width="60" height="74" rx="8" fill="#356B57"/>
+    <rect x="196" y="150" width="50" height="64" rx="8" fill="#F3CB67"/>
+    <rect x="252" y="134" width="44" height="80" rx="8" fill="#8DB89A"/>
+    <rect x="302" y="146" width="44" height="68" rx="8" fill="#DFD9EE"/>
+  </g>
+  <!-- tapete -->
+  <ellipse cx="560" cy="760" rx="400" ry="110" fill="#DDE9D7"/>
+  <ellipse cx="560" cy="760" rx="330" ry="84" fill="none" stroke="#B9D3B2" stroke-width="8" stroke-dasharray="4 18" stroke-linecap="round"/>
+  <!-- blocos macios -->
+  <g>
+    <rect x="360" y="610" width="130" height="130" rx="26" fill="#F2B69F"/>
+    <rect x="496" y="640" width="100" height="100" rx="22" fill="#F3CB67"/>
+    <rect x="410" y="500" width="110" height="110" rx="24" fill="#DFD9EE"/>
+    <path d="M605 740v-80l60-60 60 60v80Z" fill="#8DB89A" stroke="#8DB89A" stroke-width="16" stroke-linejoin="round"/>
+    <circle cx="425" cy="675" r="26" fill="none" stroke="#FFF9F0" stroke-width="10"/>
+    <path d="m546 668 12 22h-24Z" fill="#FFF9F0" transform="translate(0 4)"/>
+    <path d="M445 555h40" stroke="#FFF9F0" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <!-- almofadas -->
+  <ellipse cx="820" cy="770" rx="110" ry="46" fill="#F3CB67"/>
+  <ellipse cx="820" cy="752" rx="96" ry="34" fill="#F8DC93"/>
+  <ellipse cx="930" cy="810" rx="80" ry="34" fill="#DFD9EE"/>
+  <!-- bola -->
+  <g transform="translate(250 780)">
+    <circle r="54" fill="#FFFFFF"/>
+    <path d="M-54 0a54 54 0 0 0 108 0Z" fill="#F2B69F"/>
+    <path d="M-20-50c20 30 20 70 0 100" stroke="#8DB89A" stroke-width="12" fill="none"/>
+  </g>
+  <!-- guizo/argola -->
+  <g transform="translate(700 820)"><circle r="30" fill="none" stroke="#356B57" stroke-width="12"/><circle cx="36" cy="-26" r="14" fill="#F3CB67"/></g>
+</svg>

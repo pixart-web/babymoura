@@ -1,0 +1,562 @@
+[
+  {
+    "path": "/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "BabyMoura · Creche e Jardim de Infância em Vilamoura, Algarve",
+    "errors": []
+  },
+  {
+    "path": "/a-babymoura/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "A BabyMoura · Missão e história · Creche em Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/creche/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Creche em Vilamoura · Primeira infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/jardim-de-infancia/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Jardim de Infância em Vilamoura (3 aos 6 anos) · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/espacos/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Espaços e jardim exterior · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/atividades-e-servicos/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Atividades e serviços · Creche e Jardim de Infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/contactos/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Contactos e pedido de visita · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/pre-inscricao/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Pré-inscrição · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/privacidade/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Privacidade · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/cookies/",
+    "width": 360,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Cookies · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/pagina-inexistente/",
+    "width": 360,
+    "status": 404,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Página não encontrada · BabyMoura",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  },
+  {
+    "path": "/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "BabyMoura · Creche e Jardim de Infância em Vilamoura, Algarve",
+    "errors": []
+  },
+  {
+    "path": "/a-babymoura/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "A BabyMoura · Missão e história · Creche em Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/creche/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Creche em Vilamoura · Primeira infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/jardim-de-infancia/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Jardim de Infância em Vilamoura (3 aos 6 anos) · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/espacos/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Espaços e jardim exterior · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/atividades-e-servicos/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Atividades e serviços · Creche e Jardim de Infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/contactos/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Contactos e pedido de visita · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/pre-inscricao/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Pré-inscrição · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/privacidade/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Privacidade · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/cookies/",
+    "width": 390,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Cookies · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/pagina-inexistente/",
+    "width": 390,
+    "status": 404,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Página não encontrada · BabyMoura",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  },
+  {
+    "path": "/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "BabyMoura · Creche e Jardim de Infância em Vilamoura, Algarve",
+    "errors": []
+  },
+  {
+    "path": "/a-babymoura/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "A BabyMoura · Missão e história · Creche em Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/creche/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Creche em Vilamoura · Primeira infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/jardim-de-infancia/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Jardim de Infância em Vilamoura (3 aos 6 anos) · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/espacos/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Espaços e jardim exterior · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/atividades-e-servicos/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Atividades e serviços · Creche e Jardim de Infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/contactos/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Contactos e pedido de visita · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/pre-inscricao/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Pré-inscrição · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/privacidade/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Privacidade · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/cookies/",
+    "width": 768,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Cookies · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/pagina-inexistente/",
+    "width": 768,
+    "status": 404,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Página não encontrada · BabyMoura",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  },
+  {
+    "path": "/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "BabyMoura · Creche e Jardim de Infância em Vilamoura, Algarve",
+    "errors": []
+  },
+  {
+    "path": "/a-babymoura/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "A BabyMoura · Missão e história · Creche em Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/creche/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Creche em Vilamoura · Primeira infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/jardim-de-infancia/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Jardim de Infância em Vilamoura (3 aos 6 anos) · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/espacos/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Espaços e jardim exterior · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/atividades-e-servicos/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Atividades e serviços · Creche e Jardim de Infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/contactos/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Contactos e pedido de visita · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/pre-inscricao/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Pré-inscrição · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/privacidade/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Privacidade · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/cookies/",
+    "width": 1024,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Cookies · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/pagina-inexistente/",
+    "width": 1024,
+    "status": 404,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Página não encontrada · BabyMoura",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "BabyMoura · Creche e Jardim de Infância em Vilamoura, Algarve",
+    "errors": []
+  },
+  {
+    "path": "/a-babymoura/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "A BabyMoura · Missão e história · Creche em Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/creche/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Creche em Vilamoura · Primeira infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/jardim-de-infancia/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Jardim de Infância em Vilamoura (3 aos 6 anos) · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/espacos/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Espaços e jardim exterior · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/atividades-e-servicos/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Atividades e serviços · Creche e Jardim de Infância · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/contactos/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Contactos e pedido de visita · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/pre-inscricao/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Pré-inscrição · BabyMoura Vilamoura",
+    "errors": []
+  },
+  {
+    "path": "/privacidade/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Privacidade · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/cookies/",
+    "width": 1440,
+    "status": 200,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Política de Cookies · BabyMoura",
+    "errors": []
+  },
+  {
+    "path": "/pagina-inexistente/",
+    "width": 1440,
+    "status": 404,
+    "overflow": 0,
+    "broken": [],
+    "h1": 1,
+    "title": "Página não encontrada · BabyMoura",
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  }
+]

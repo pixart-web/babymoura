@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "babymoura/hours",
+	"title": "Horário",
+	"category": "babymoura",
+	"icon": "clock",
+	"description": "Mostra o horário apenas quando confirmado; caso contrário convida ao contacto.",
+	"textdomain": "babymoura-core",
+	"attributes": {},
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		],
+		"anchor": true,
+		"className": true
+	},
+	"editorScript": "bm-editor",
+	"render": "file:./render.php"
+}

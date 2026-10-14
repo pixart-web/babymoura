@@ -1,0 +1,27 @@
+[
+	{
+		"slug": "entrada",
+		"name": "Entrada e edifício",
+		"description": "Fachada e acesso principal."
+	},
+	{
+		"slug": "salas-creche",
+		"name": "Salas da creche",
+		"description": "Berçário e salas da primeira infância."
+	},
+	{
+		"slug": "salas-jardim",
+		"name": "Salas do jardim de infância",
+		"description": "Salas do pré-escolar."
+	},
+	{
+		"slug": "exterior",
+		"name": "Jardim exterior",
+		"description": "Relvado, árvores e equipamentos de exterior."
+	},
+	{
+		"slug": "horta",
+		"name": "Horta pedagógica",
+		"description": "Canteiros cuidados pelas crianças."
+	}
+]

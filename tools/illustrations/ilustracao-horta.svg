@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FCEFD2"/><stop offset="1" stop-color="#FFF9F0"/>
+    </linearGradient>
+    <pattern id="soil" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="8" r="2.5" fill="#6E4A33" opacity="0.35"/><circle cx="18" cy="18" r="2" fill="#6E4A33" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="160" cy="150" r="80" fill="#F3CB67"/>
+  <circle cx="160" cy="150" r="130" fill="#F3CB67" opacity="0.2"/>
+  <path d="M0 420c300-50 600-60 900-30 120 12 220 10 300-6v516H0Z" fill="#DDE9D7"/>
+  <path d="M0 520c400-40 800-40 1200-10v390H0Z" fill="#B9D3B2"/>
+  <!-- canteiro de trás -->
+  <g transform="translate(120 380)">
+    <rect width="960" height="150" rx="24" fill="#C98F63"/>
+    <rect width="960" height="40" rx="20" fill="#D9A77A"/>
+    <rect x="20" y="10" width="920" height="30" rx="14" fill="#8A5E42"/>
+    <rect x="20" y="10" width="920" height="30" rx="14" fill="url(#soil)"/>
+    <!-- alfaces -->
+    <g>
+      <g transform="translate(110 10)"><circle cx="0" cy="-10" r="40" fill="#8DB89A"/><circle cx="-20" cy="-4" r="26" fill="#9FC5A6"/><circle cx="20" cy="-6" r="26" fill="#7BAE8C"/><circle cx="0" cy="-24" r="20" fill="#B9D3B2"/></g>
+      <g transform="translate(270 10)"><circle cx="0" cy="-10" r="40" fill="#8DB89A"/><circle cx="-20" cy="-4" r="26" fill="#9FC5A6"/><circle cx="20" cy="-6" r="26" fill="#7BAE8C"/><circle cx="0" cy="-24" r="20" fill="#B9D3B2"/></g>
+    </g>
+    <!-- cenouras -->
+    <g stroke="#5E9474" stroke-width="8" stroke-linecap="round" fill="none">
+      <path d="M430 14c-6-30-20-50-34-60M440 14c0-34 4-56 14-70M450 14c8-28 20-46 34-54"/>
+      <path d="M560 14c-6-30-20-50-34-60M570 14c0-34 4-56 14-70M580 14c8-28 20-46 34-54"/>
+    </g>
+    <path d="M428 16h26l-12 40Z" fill="#E7894F"/><path d="M558 16h26l-12 40Z" fill="#E7894F"/>
+    <!-- tomateiro -->
+    <g transform="translate(760 0)">
+      <path d="M0 20v-150M-40 20v-120M40 20v-130" stroke="#C98F63" stroke-width="6" stroke-linecap="round"/>
+      <g fill="#6FA283"><ellipse cx="-20" cy="-60" rx="30" ry="16" transform="rotate(-20 -20 -60)"/><ellipse cx="20" cy="-90" rx="30" ry="16" transform="rotate(20 20 -90)"/><ellipse cx="-10" cy="-120" rx="28" ry="15" transform="rotate(-10 -10 -120)"/><ellipse cx="30" cy="-40" rx="26" ry="14"/></g>
+      <g fill="#E8795E"><circle cx="-26" cy="-36" r="14"/><circle cx="8" cy="-64" r="15"/><circle cx="36" cy="-110" r="12"/><circle cx="-30" cy="-92" r="12" fill="#F3CB67"/></g>
+    </g>
+  </g>
+  <!-- canteiro da frente -->
+  <g transform="translate(40 610)">
+    <rect width="720" height="190" rx="28" fill="#C98F63"/>
+    <rect width="720" height="46" rx="23" fill="#D9A77A"/>
+    <rect x="22" y="12" width="676" height="34" rx="16" fill="#8A5E42"/>
+    <rect x="22" y="12" width="676" height="34" rx="16" fill="url(#soil)"/>
+    <g stroke="#356B57" stroke-width="7" stroke-linecap="round" fill="#6FA283">
+      <path d="M90 20V-30" fill="none"/><path d="M90-12c-20-2-30-14-32-32 20 0 30 12 32 32Z"/><path d="M90-18c16-6 28-18 28-34-18 2-28 16-28 34Z"/>
+      <path d="M210 20V-20" fill="none"/><path d="M210-6c-16-2-24-12-26-26 16 0 24 10 26 26Z"/><path d="M210-10c12-4 22-14 22-28-14 2-22 12-22 28Z"/>
+      <path d="M330 20V-34" fill="none"/><path d="M330-16c-20-2-30-14-32-32 20 0 30 12 32 32Z"/><path d="M330-22c16-6 28-18 28-34-18 2-28 16-28 34Z"/>
+      <path d="M450 20V-22" fill="none"/><path d="M450-8c-16-2-24-12-26-26 16 0 24 10 26 26Z"/><path d="M450-12c12-4 22-14 22-28-14 2-22 12-22 28Z"/>
+      <path d="M570 20V-30" fill="none"/><path d="M570-12c-20-2-30-14-32-32 20 0 30 12 32 32Z"/><path d="M570-18c16-6 28-18 28-34-18 2-28 16-28 34Z"/>
+    </g>
+    <!-- placas -->
+    <g>
+      <rect x="130" y="-60" width="12" height="80" rx="4" fill="#9B6B4A"/><rect x="100" y="-86" width="72" height="40" rx="8" fill="#FFF9F0" stroke="#D9A77A" stroke-width="4"/>
+      <path d="M114-66h44" stroke="#F2B69F" stroke-width="6" stroke-linecap="round"/>
+      <rect x="500" y="-60" width="12" height="80" rx="4" fill="#9B6B4A"/><rect x="470" y="-86" width="72" height="40" rx="8" fill="#FFF9F0" stroke="#D9A77A" stroke-width="4"/>
+      <path d="M484-66h44" stroke="#8DB89A" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+  <!-- regador -->
+  <g transform="translate(860 660)">
+    <path d="M40 40h180v130a30 30 0 0 1-30 30H70a30 30 0 0 1-30-30Z" fill="#F3CB67"/>
+    <path d="M220 70 330 0l14 18-110 80Z" fill="#F3CB67"/>
+    <rect x="320" y="-18" width="44" height="36" rx="10" fill="#E9B94C" transform="rotate(-34 342 0)"/>
+    <path d="M60 40c0-50 30-80 70-80s70 30 70 80" stroke="#E9B94C" stroke-width="18" fill="none"/>
+    <g fill="#DCEEF2"><circle cx="390" cy="40" r="6"/><circle cx="410" cy="70" r="5"/><circle cx="380" cy="80" r="5"/></g>
+  </g>
+  <!-- pá -->
+  <g transform="translate(820 540) rotate(20)"><rect x="-6" y="0" width="12" height="130" rx="6" fill="#9B6B4A"/><path d="M-26 126h52l-6 60c-4 20-36 20-40 0Z" fill="#8FA3A6"/></g>
+  <!-- borboletas -->
+  <g transform="translate(700 260) rotate(10)"><ellipse cx="-13" cy="0" rx="15" ry="11" fill="#F2B69F"/><ellipse cx="13" cy="0" rx="15" ry="11" fill="#F2B69F"/><rect x="-2" y="-11" width="4" height="24" rx="2" fill="#253D35"/></g>
+  <g transform="translate(960 200) rotate(-14)"><ellipse cx="-10" cy="0" rx="12" ry="9" fill="#DFD9EE"/><ellipse cx="10" cy="0" rx="12" ry="9" fill="#DFD9EE"/><rect x="-2" y="-9" width="4" height="20" rx="2" fill="#253D35"/></g>
+</svg>
